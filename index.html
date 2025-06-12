@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Solana Token Hunter</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f0f2f5; margin: 0; padding: 20px; }
+    .card { background: #fff; border-radius: 10px; padding: 15px; margin-bottom: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .locked { opacity: 0.6; cursor: not-allowed; }
+    .free { border: 2px solid green; }
+    .premium { border: 2px dashed orange; }
+    button { padding: 5px 10px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h2>New Token Micin Solana</h2>
+
+  <div class="card free">
+    <h3>FREE Token Sample</h3>
+    <p>Token: MicinCoin (MCN)</p>
+    <p>Mint: <code>4kdF...AbcD</code></p>
+    <p>LP Locked: ✅</p>
+    <p>Honeypot: ❌</p>
+    <p>Website: <a href="#">https://micincoin.sol</a></p>
+  </div>
+
+  <div class="card premium locked">
+    <h3>Premium Token #1</h3>
+    <p>Locked: Pay $0.2 to unlock details.</p>
+    <button disabled>Unlock</button>
+  </div>
+
+  <div class="card premium locked">
+    <h3>Premium Token #2</h3>
+    <p>Locked: Pay $0.2 to unlock details.</p>
+    <button disabled>Unlock</button>
+  </div>
+
+  <p style="margin-top:30px;font-size:12px;color:gray">Note: Only verified non-honeypot tokens displayed.</p>
+</body>
+</html>
